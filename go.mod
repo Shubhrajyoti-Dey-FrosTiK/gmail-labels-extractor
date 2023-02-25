@@ -1,4 +1,4 @@
-module mail-labels
+module frostik.com/mail-labels
 
 go 1.19
 

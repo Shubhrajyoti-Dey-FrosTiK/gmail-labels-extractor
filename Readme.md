@@ -64,3 +64,11 @@ In `cmd/main.go` we also see a blank import.This will import `functions.go` and 
 In `functions.go` we define all the functions and we call the `labels` functions.
 
 After you have started the server with the `make` command you can hit `http://localhost8080/labels` and check the output.
+
+# Deployment
+
+In order to deploy just run this command
+
+```
+gcloud functions deploy gmail-labels-extractor --runtime go119 --trigger-http --allow-unauthenticated --region=asia-south1 --gen2 --entry-point labels
+```

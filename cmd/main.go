@@ -5,7 +5,7 @@ import (
 	"os"
 
 	// Blank-import the function package so the init() runs
-	_ "mail-labels"
+	_ "frostik.com/mail-labels"
 
 	"github.com/GoogleCloudPlatform/functions-framework-go/funcframework"
 )
